@@ -5,3 +5,5 @@ plugins:
   - awesome-pages:
       filename: index.yml
       collapse_single_pages: false
+  - git-revision-date-localized:
+      type: timeago
