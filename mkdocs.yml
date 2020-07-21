@@ -8,5 +8,9 @@ plugins:
   - git-revision-date-localized:
       type: timeago
   - macros
+markdown_extensions:
+  - codehilite:
+      linenums: true
+      guess_lang: false
 extra:
   foo: bar
