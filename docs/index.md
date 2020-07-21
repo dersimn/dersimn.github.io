@@ -71,3 +71,9 @@ Use with either `$$ … $$` or `\[ … ]\` for blocks and `\( … \)` for inline
     
     $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
     ```
+## Notes, Warnings, Hints, etc.
+
+!!! warning
+    {{ lipsum(1) }}
+
+See more examples [here](https://squidfunk.github.io/mkdocs-material/extensions/admonition).
