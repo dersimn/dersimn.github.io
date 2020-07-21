@@ -1,5 +1,8 @@
 site_name: My Docs
-theme: material
+theme: 
+  name: material
+  palette:
+    scheme: preference
 plugins:
   - search
   - awesome-pages:
