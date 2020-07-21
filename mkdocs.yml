@@ -26,5 +26,10 @@ markdown_extensions:
       permalink: true
 extra:
   foo: bar
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/dersimn
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/r/dersimn
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
