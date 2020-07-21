@@ -1,6 +1,7 @@
 site_name: My Docs
 theme: material
 plugins:
+  - search
   - awesome-pages:
       filename: index.yml
       collapse_single_pages: false
