@@ -55,3 +55,19 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
       }
     }
     ```
+
+## Math
+
+Use with either `$$ … $$` or `\[ … ]\` for blocks and `\( … \)` for inline:
+
+=== "Result"
+    When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+
+    $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
+=== "TeX Math"
+    ``` tex
+    When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+    
+    $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+    ```
