@@ -17,6 +17,8 @@ markdown_extensions:
   - pymdownx.arithmatex
   - admonition
   - footnotes
+  - toc:
+      permalink: true
 extra:
   foo: bar
 extra_javascript:
