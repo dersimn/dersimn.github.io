@@ -3,6 +3,8 @@ theme:
   name: material
   palette:
     scheme: preference
+  features:
+    - tabs
 plugins:
   - search
   - awesome-pages:
