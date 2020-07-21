@@ -16,6 +16,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.arithmatex
   - admonition
+  - footnotes
 extra:
   foo: bar
 extra_javascript:

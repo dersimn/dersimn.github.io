@@ -73,7 +73,11 @@ Use with either `$$ … $$` or `\[ … ]\` for blocks and `\( … \)` for inline
     ```
 ## Notes, Warnings, Hints, etc.
 
-!!! warning
+!!! warning "Warning[^footnote_warning]"
     {{ lipsum(1) }}
 
 See more examples [here](https://squidfunk.github.io/mkdocs-material/extensions/admonition).
+
+
+
+[^footnote_warning]: I have no idea what I'm talking about.
