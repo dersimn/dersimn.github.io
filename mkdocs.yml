@@ -12,5 +12,7 @@ markdown_extensions:
   - codehilite:
       linenums: true
       guess_lang: false
+  - pymdownx.tabbed
+  - pymdownx.superfences
 extra:
   foo: bar

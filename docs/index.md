@@ -18,8 +18,40 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Code Highlighting
 
-``` bash
-#!/bin/bash
+=== "Bash"
+    ``` bash
+    #!/bin/bash
 
-echo "Hello world!"
-```
+    echo "Hello world!"
+    ```
+
+=== "C"
+    ``` c
+    #include <stdio.h>
+
+    int main(void) {
+      printf("Hello world!\n");
+      return 0;
+    }
+    ```
+
+=== "C++"
+    ``` c++
+    #include <iostream>
+
+    int main(void) {
+      std::cout << "Hello world!" << std::endl;
+      return 0;
+    }
+    ```
+
+=== "C#"
+    ``` c#
+    using System;
+
+    class Program {
+      static void Main(string[] args) {
+        Console.WriteLine("Hello world!");
+      }
+    }
+    ```
