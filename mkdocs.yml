@@ -3,6 +3,8 @@ theme:
   name: material
   palette:
     scheme: preference
+    primary: blue grey
+    accent: teal
   features:
     - tabs
 plugins:
