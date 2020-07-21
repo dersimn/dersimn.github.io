@@ -7,3 +7,6 @@ plugins:
       collapse_single_pages: false
   - git-revision-date-localized:
       type: timeago
+  - macros
+extra:
+  foo: bar

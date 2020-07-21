@@ -1,3 +1,3 @@
 # Second Article
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam ligula, tempus vel felis at, aliquam iaculis ante. Nulla non placerat lacus, blandit congue eros. Proin a eros in est varius fermentum. Sed porta ligula eu lectus viverra, non maximus ipsum porttitor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus diam arcu, tincidunt eget pellentesque ac, rhoncus eu sem. Proin ut viverra eros, nec fermentum elit. Quisque ullamcorper facilisis ligula. Pellentesque pulvinar iaculis quam, a hendrerit sapien venenatis viverra. Praesent pulvinar enim non sodales accumsan. Proin scelerisque euismod erat, ut mollis ligula egestas non. Praesent luctus hendrerit justo. Cras eleifend id nulla at vehicula. Sed a tempor dolor. Nunc nec ipsum vehicula, malesuada eros sit amet, ultrices justo. Aenean accumsan nibh lorem, at placerat tortor semper vitae.
+{{ lipsum() }}
