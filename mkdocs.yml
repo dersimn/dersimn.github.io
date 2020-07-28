@@ -1,5 +1,6 @@
+---
 site_name: My Docs
-theme: 
+theme:
   name: material
   palette:
     scheme: preference
