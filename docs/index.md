@@ -91,6 +91,19 @@ See more examples [here](https://squidfunk.github.io/mkdocs-material/extensions/
 * [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
 * [ ] Nulla vel eros venenatis, imperdiet enim id, faucibus nisi
 
+## Keyboard presses
+
+=== "Output"
+    ++ctrl+alt+"My Special Key"++
+
+    ++cmd+alt+"&Uuml;"++
+
+=== "Markdown"
+    ``` markdown
+    ++ctrl+alt+"My Special Key"++
+
+    ++cmd+alt+"&Uuml;"++
+    ```
 
 
 [^footnote_warning]: I have no idea what I'm talking about.
