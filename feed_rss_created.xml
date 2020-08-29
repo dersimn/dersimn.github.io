@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+  xmlns:atom="https://www.w3.org/2005/Atom"
+  xmlns:dc="https://purl.org/dc/elements/1.1/">
+  <channel>
+    <!-- Mandatory elements -->
+    <title>My Docs</title>
+    <description>None</description>
+    <link></link>
+    <atom:link href="" rel="self" type="application/rss+xml" />
+
+    <!-- Optional elements -->
+    <managingEditor>None</managingEditor>
+    <category>None</category>
+    <docs>https://github.com/dersimn/dersimn.github.io/</docs>
+    
+
+    <!-- Timestamps and frequency -->
+    <pubDate>Sat, 29 Aug 2020 13:44:37 -0000</pubDate>
+    <lastBuildDate>Sat, 29 Aug 2020 13:44:37 -0000</lastBuildDate>
+    <ttl>1440</ttl>
+
+    <!-- Credits -->
+    <generator>MkDocs RSS plugin - v0.4.0</generator>
+
+    <!-- Feed illustration -->
+    
+
+    <!-- Entries -->
+    
+    <item>
+      <title>Markdown Sandbox</title>
+      <description># Markdown Sandbox
+
+* [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
+* [x] Nulla lobortis egestas semper
+* [x] Curabitur elit nibh, euism</description>
+      <link>None</link>
+      <pubDate>Sat, 29 Aug 2020 13:44:39 -0000</pubDate>
+      <source url="">My Docs</source>
+      
+    </item>
+    
+    <item>
+      <title>Macro by example</title>
+      <description># Macro by example
+
+Variable from macro: `{{ foo }}`</description>
+      <link>None</link>
+      <pubDate>Tue, 21 Jul 2020 16:41:26 -0000</pubDate>
+      <source url="">My Docs</source>
+      
+    </item>
+    
+    <item>
+      <title>Second Article</title>
+      <description># Second Article
+
+{{ lipsum() }}</description>
+      <link>None</link>
+      <pubDate>Tue, 21 Jul 2020 16:22:21 -0000</pubDate>
+      <source url="">My Docs</source>
+      
+    </item>
+    
+    <item>
+      <title>Introduction to big topic</title>
+      <description># Introduction to big topic
+
+{{ lipsum() }}
+</description>
+      <link>None</link>
+      <pubDate>Tue, 21 Jul 2020 16:22:21 -0000</pubDate>
+      <source url="">My Docs</source>
+      
+    </item>
+    
+    <item>
+      <title>Point 1 (and only) of big topic</title>
+      <description># Point 1 (and only) of big topic
+
+{{ lipsum() }}
+</description>
+      <link>None</link>
+      <pubDate>Tue, 21 Jul 2020 16:22:21 -0000</pubDate>
+      <source url="">My Docs</source>
+      
+    </item>
+    
+    <item>
+      <title>Welcome to MkDocs</title>
+      <description># Welcome to MkDocs
+
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+## Commands
+
+* `mkdocs new [dir-name]` - Create a new project</description>
+      <link>None</link>
+      <pubDate>Tue, 21 Jul 2020 16:04:57 -0000</pubDate>
+      <source url="">My Docs</source>
+      
+    </item>
+    
+  </channel>
+</rss>
