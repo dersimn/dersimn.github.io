@@ -8,6 +8,17 @@ Build with:
 
     docker run --rm -v "$(pwd)":/mkdocs dersimn/mkdocs build
 
+Deploy to GitHub Pages:
+
+    git remote add origin git@github.com:dersimn/dersimn.github.io.git
+
+    docker run --rm -v "$(pwd)":/mkdocs dersimn/mkdocs gh-deploy
+
+If the command fails:
+
+    git push origin gh-pages
+
+
 ## Build manually
 
     docker build -t dersimn/mkdocs .
