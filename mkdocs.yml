@@ -34,6 +34,16 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.betterem:
       smart_enable: all
+  - pymdownx.smartsymbols:
+      trademark: false
+      copyright: false
+      registered: false
+      care_of: false
+      plusminus: false
+      arrows: false
+      notequal: false
+      fractions: false
+      ordinal_numbers: true
 extra:
   foo: bar
   social:

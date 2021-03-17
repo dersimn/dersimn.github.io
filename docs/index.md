@@ -141,5 +141,9 @@ __This will all be bold_ because of the token is less than that of the surroundi
 
 **All will not *** be bold**
 
+## SmartSymbols
+
+1st 2nd etc.
+
 
 [^footnote_warning]: I have no idea what I'm talking about.
