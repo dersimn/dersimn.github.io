@@ -18,9 +18,8 @@ plugins:
   - macros
   - rss
 markdown_extensions:
-  - codehilite:
+  - pymdownx.highlight:
       linenums: true
-      guess_lang: false
   - pymdownx.tabbed
   - pymdownx.superfences
   - pymdownx.arithmatex
