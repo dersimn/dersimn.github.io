@@ -32,6 +32,8 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.keys
+  - pymdownx.betterem:
+      smart_enable: all
 extra:
   foo: bar
   social:
