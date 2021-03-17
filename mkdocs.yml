@@ -8,6 +8,8 @@ theme:
     accent: teal
   features:
     - navigation.tabs
+    - navigation.instant
+    - header.autohide
 plugins:
   - search
   - awesome-pages:
