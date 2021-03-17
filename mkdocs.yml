@@ -7,7 +7,7 @@ theme:
     primary: blue grey
     accent: teal
   features:
-    - tabs
+    - navigation.tabs
 plugins:
   - search
   - awesome-pages:
