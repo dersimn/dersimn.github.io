@@ -45,3 +45,4 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
 repo_name: dersimn.github.io
 repo_url: https://github.com/dersimn/dersimn.github.io
+copyright: <a href="https://creativecommons.org/licenses/by-sa/3.0/de/deed.en">CC BY-SA 3.0 DE</a> – Simon Christmann
