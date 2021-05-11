@@ -5,6 +5,7 @@ RUN pip install mkdocs-awesome-pages-plugin
 RUN pip install mkdocs-git-revision-date-localized-plugin
 RUN pip install mkdocs-macros-plugin
 RUN pip install mkdocs-rss-plugin
+RUN pip install git+https://github.com/dersimn/mkdocs
 
 
 WORKDIR /mkdocs
