@@ -3,9 +3,20 @@ site_name: My Docs
 theme:
   name: material
   palette:
-    scheme: preference
-    primary: blue grey
-    accent: teal
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
   features:
     - navigation.tabs
     - navigation.instant
