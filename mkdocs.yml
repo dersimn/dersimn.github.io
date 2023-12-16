@@ -33,7 +33,8 @@ plugins:
 markdown_extensions:
   - pymdownx.highlight:
       linenums: true
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true 
   - pymdownx.superfences
   - pymdownx.arithmatex
   - admonition
