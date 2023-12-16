@@ -57,7 +57,7 @@ markdown_extensions:
       fractions: false
       ordinal_numbers: true
   - pymdownx.snippets:
-      base_path: $relative
+      # base_path: !relative
 extra:
   foo: bar
   social:
