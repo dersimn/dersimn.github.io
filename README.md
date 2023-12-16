@@ -26,3 +26,13 @@ If the command fails:
 Or as a single command for e.g.:
 
     docker build -t mkdocs_tmp . && docker run --rm -p 8000:8000 -v "$(pwd)":/mkdocs mkdocs_tmp
+
+# Edit via Web UI
+
+VS Code
+
+    docker run -it --init -p 3000:3000 -v "$(pwd):/home/workspace:cached" gitpod/openvscode-server
+
+Log Output
+
+    docker logs -f 1b6f123733dc 2>&1 | docker run --rm -i -p 9001:9001 mthenw/frontail -
