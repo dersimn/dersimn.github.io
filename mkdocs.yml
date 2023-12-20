@@ -28,6 +28,7 @@ plugins:
   - awesome-pages:
       order_by: title
       collapse_single_pages: true
+      filename: _pages.yaml
   - git-revision-date-localized:
       type: timeago
   - macros
