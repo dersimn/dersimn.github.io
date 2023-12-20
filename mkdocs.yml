@@ -26,8 +26,7 @@ theme:
 plugins:
   - search
   - awesome-pages:
-      filename: index.yml
-      collapse_single_pages: false
+      order_by: title
   - git-revision-date-localized:
       type: timeago
   - macros
