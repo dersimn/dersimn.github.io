@@ -7,6 +7,7 @@ Serve is the default command:
 Build with:
 
     docker run --rm -v "$(pwd)":/mkdocs dersimn/mkdocs build
+    docker run --rm -p 8000:80 -v "$(pwd)"/site:/usr/share/nginx/html:ro nginx
 
 Deploy to GitHub Pages:
 
