@@ -21,6 +21,7 @@ theme:
     - navigation.tabs
     - navigation.instant
     - header.autohide
+    - toc.integrate
 plugins:
   - search
   - awesome-pages:
