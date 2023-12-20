@@ -27,6 +27,7 @@ plugins:
   - search
   - awesome-pages:
       order_by: title
+      collapse_single_pages: true
   - git-revision-date-localized:
       type: timeago
   - macros
